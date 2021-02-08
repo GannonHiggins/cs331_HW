@@ -22,5 +22,16 @@ function pa2.filterArray(p,t)
 end 
 
 
+
+--function concatMax
+
+function pa2.concatMax(buf_str, int)
+    return string.rep(buf_str,math.floor(int/buf_str:len()))
+end
+
+
+
+
+
 return pa2
 
